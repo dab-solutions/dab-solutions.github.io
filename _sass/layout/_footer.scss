@@ -7,7 +7,9 @@
 /* Footer */
 
 	#footer {
-		background-color: _palette(bg-alt);
+		background-color: _palette(bg-white);
+		color: #000;
+
 		.copyright {
 			font-size: 0.8em;
 			list-style: none;
@@ -15,7 +17,7 @@
 
 			li {
 				border-left: solid 1px _palette(border);
-				color: _palette(fg-light);
+				color: _palette(fg-black);
 				display: inline-block;
 				line-height: 1;
 				margin-left: 1em;
