@@ -1,0 +1,30 @@
+# site settings
+title: dab.solutions
+subtitle: Forty theme by HTML5 UP
+email: info@dab.solutions
+description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author: Davide Barbato
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/dab-solutions/
+gitlab_url: 
+googleplus_url: 
+instagram_url: 
+linkedin_url: https://www.linkedin.com/in/davidebarbato
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/davbarbato
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
