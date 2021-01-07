@@ -9,7 +9,7 @@ author: Davide Barbato
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 0
+tiles-count: 2
 
 # social settings
 500px_url:
