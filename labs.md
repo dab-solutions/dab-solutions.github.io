@@ -16,29 +16,56 @@ show_tile: true
             </header>
 
             <!-- Content -->
-            <h2 id="content">Sample Content</h2>
-            <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+            <p>Below you can find a list of projects we have been working on with our partners and clients.</p>
             <div class="row">
-                <div class="6u 12u$(small)">
-                    <h3>Sem turpis amet semper</h3>
-                    <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                <div class="12u$(small)">
+                    <h3>Infrastructure as Code</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                <a href="https://wazuh.com/" target=_blank>Wazuh</a> is a free, open source and enterprise-ready security monitoring solution for threat detection, integrity monitoring, incident response and compliance. We have built with <a href="https://cimpress.com/" target=_blank>Cimpress</a> a <a href="https://www.terraform.io/" target=_blank>Terraform</a> module to spin up a Wazuh infrastructure in AWS in a fast and reliable way.
+                                <br />Click <a href="https://github.com/davinerd/wazuh_terraform" target=_blank> here </a> to check out the code.
+                            </li>
+                            <li>
+                                This <a href="https://www.terraform.io/" target=_blank>Terraform</a> module creates a <a href="https://en.wikipedia.org/wiki/Bastion_host" target=_blank>Bastion Host</a> infrastructure to deploy in an AWS VPC. It's based on the open source <a href="https://guacamole.apache.org/" target=_blank>Apache Guacamole</a>, a clientless remote desktop gateway based on HTML5 supporting SSH, RDP and VNC. Developed at <a href="https://cimpress.com/" target=_blank>Cimpress</a>.
+                                <br />Click <a href="https://github.com/Cimpress-MCP/IPS_Bastion_Guacamole" target=_blank> here </a> to check out the code.
+                            </li>
+                        </ul>
+                    </p>
                 </div>
-                <div class="6u$ 12u$(small)">
-                    <h3>Magna odio tempus commodo</h3>
-                    <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
+                <div class="12u$(small)">
+                    <h3>Privacy</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                MacTomb is a kind of <a href="https://github.com/dyne/Tomb">Tomb</a> porting for Mac OS X. It allows you to create encrypted DMG file (called mactomb), copy files and folders into it and setup a couple of scripts needed to easily mount & run apps that use files stored inside the mactomb.
+                                <br />Click <a href="https://github.com/davinerd/MacTomb" target=_blank> here </a> to check out the code.
+                            </li>
+                        </ul>
+
+                    </p>
                 </div>
-                <!-- Break -->
-                <div class="4u 12u$(medium)">
-                    <h3>Interdum sapien gravida</h3>
-                    <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                <div class="12u$(small)">
+                    <h3>Compliance as Code</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                pycfais a python script to audit <a href="https://aws.amazon.com/cloudformation/" target=_blank>CloudFormation</a> template files for security misconfigurations. It supports both JSON and YAML formats.
+                                <br />Click <a href="https://github.com/davinerd/pycfa" target=_blank> here </a> to check out the code.
+                            </li>
+                        </ul>
+                    </p>
                 </div>
-                <div class="4u 12u$(medium)">
-                    <h3>Faucibus consequat lorem</h3>
-                    <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-                </div>
-                <div class="4u$ 12u$(medium)">
-                    <h3>Accumsan montes viverra</h3>
-                    <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                <div class="12u$(small)">
+                    <h3>Application Security</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                gql_intruder is a plugin oriented tool to perform GraphQL endpoint vulnerability assessment. Developed while assisting our friends at the <a href="https://proca.foundation/" target=_blank>Proca Foundation</a> in <a href="https://github.com/fixthestatusquo/proca-backend/issues?q=is%3Aissue+author%3Adavinerd" target=_blank>strengthening the code</a> of their product. 
+                                <br />Click <a href="https://github.com/davinerd/gql_intruder" target=_blank> here </a> to check out the code.
+                            </li>
+                        </ul>
+                    </p>
                 </div>
             </div>
 
