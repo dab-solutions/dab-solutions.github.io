@@ -42,7 +42,6 @@ show_tile: true
                 </div>
             </div>
 
-            <hr class="major" />
         </div>
 
     </section>
