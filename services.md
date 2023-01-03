@@ -18,6 +18,9 @@ show_tile: true
             <!-- Content -->
             <p>Today's modern infrastructures bring new security challenges to be solved fast and at scale. With the thriving ecosystem of technologies around, each company is growing more unique in its technology stack. Therefore security must take a new approach to solve these challenges: we have years of expertise in build tools for cloud-first startups aiming at securing the company's most critical assets at scale in a fast-changing context.</p>
             <p>With more than 15 years of experience in all security domains, we are able to offer a wide range of services.</p>
+            <p><a href="#risk-management">Risk Management</a> <b>|</b> <a href="#devsecops">Dev(Sec)Ops</a> <b>|</b> <a href="#security-awareness">Security Awareness</a> <b>|</b> <a href="#detection-and-response">Detection and Response</a> <b>|</b> <a href="#privacy">Privacy</a> <b>|</b> <a href="#vuln-management">Vulnerability Management</a>
+            <br />
+            <br />
 
             <div class="row" id="risk-management">
                 <div class="12u 12u$(medium)">
