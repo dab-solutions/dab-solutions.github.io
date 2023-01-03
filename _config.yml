@@ -4,7 +4,7 @@ subtitle: infosec | privacy | social impact | innovation
 email: info@dab.solutions
 description: Learm more about me
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+url: https://dab.solutions
 author: Davide Barbato
 
 # homepage tiles
