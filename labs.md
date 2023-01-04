@@ -18,60 +18,41 @@ show_tile: true
             <!-- Content -->
             <p>Below you can find a list of projects we have been working on with our partners and clients.</p>
             <div class="row">
-                <div class="12u$(small)">
-                    <h3>Infrastructure as Code</h3>
-                    <p>
-                        <ul>
-                            <li>
-                                <a href="https://wazuh.com/" target=_blank>Wazuh</a> is a free, open source and enterprise-ready security monitoring solution for threat detection, integrity monitoring, incident response and compliance. We have built with <a href="https://cimpress.com/" target=_blank>Cimpress</a> a <a href="https://www.terraform.io/" target=_blank>Terraform</a> module to spin up a Wazuh infrastructure in AWS in a fast and reliable way.
-                                <br />Click <a href="https://github.com/davinerd/wazuh_terraform" target=_blank> here </a> to check out the code.
-                            </li>
-                            <li>
-                                This <a href="https://www.terraform.io/" target=_blank>Terraform</a> module creates a <a href="https://en.wikipedia.org/wiki/Bastion_host" target=_blank>Bastion Host</a> infrastructure to deploy in an AWS VPC. It's based on the open source <a href="https://guacamole.apache.org/" target=_blank>Apache Guacamole</a>, a clientless remote desktop gateway based on HTML5 supporting SSH, RDP and VNC. Developed at <a href="https://cimpress.com/" target=_blank>Cimpress</a>.
-                                <br />Click <a href="https://github.com/Cimpress-MCP/IPS_Bastion_Guacamole" target=_blank> here </a> to check out the code.
-                            </li>
-                        </ul>
-                    </p>
+                <div class="4u 12u$(small)">
+                    <h4>DHIS2 deployments with LXD</h4>
+                    <p>To make more robust DHIS2 deployments on LXD infrastructure, we have released <i>dhis2-tools-dab</i>, a successor of <a href="https://github.com/bobjolliffe/dhis2-tools-ng" target=_blank>dhis2-tools-ng</a>.</p>
+                    <p>This new tool brings new features such as lxd cluster support, centralized logging and SIEM capabilities.</p>
+                    <p>The code can be found <a href="https://github.com/davinerd/dhis2-tools-dab" target=_blank>here</a>.</p>
                 </div>
-                <div class="12u$(small)">
-                    <h3>Privacy</h3>
-                    <p>
-                        <ul>
-                            <li>
-                                MacTomb is a kind of <a href="https://github.com/dyne/Tomb">Tomb</a> porting for Mac OS X. It allows you to create encrypted DMG file (called mactomb), copy files and folders into it and setup a couple of scripts needed to easily mount & run apps that use files stored inside the mactomb.
-                                <br />Click <a href="https://github.com/davinerd/MacTomb" target=_blank> here </a> to check out the code.
-                            </li>
-                        </ul>
-
-                    </p>
+                <div class="4u 12u$(small)">
+                    <h4>DHIS2 server security auditor</h4>
+                    <p>This <a href="https://docs.chef.io/inspec/" target=_blank>inspec</a> profile verifies compliance of DHIS2 deployments with CIS benchmarks. It can be run locally or remotely to a container in a local LXD host/cluster. It can also run as part of a CD/CI pipeline or automated deployment scripts.</p>
+                    <p>Goal is to ensure DHIS2 has been deployed following international security standards.</p>
+                    <p>The code can be found <a href="https://github.com/davinerd/dhis2-inspec" target=_blank>on Github</a>.</p>
                 </div>
-                <div class="12u$(small)">
-                    <h3>Compliance as Code</h3>
-                    <p>
-                        <ul>
-                            <li>
-                                pycfais a python script to audit <a href="https://aws.amazon.com/cloudformation/" target=_blank>CloudFormation</a> template files for security misconfigurations. It supports both JSON and YAML formats.
-                                <br />Click <a href="https://github.com/davinerd/pycfa" target=_blank> here </a> to check out the code.
-                            </li>
-                        </ul>
-                    </p>
+                <div class="4u 12u$(small)">
+                    <h4>Linux workstation compliance: alr</h4>
+                    <p>To scale management of Linux workstation for compliace purposes, <i>alr</i> is what you need: it's a wrapper for <a href="https://github.com/CISOfy/lynis" target=_blank>lynis</a> and it automatically scans the machine with a predefined or user-supplied profile tailored to the business needs.</p>
+                    <p>To actually manage the reports and make it a fully scalable solution, you will need to leverage the custom crafted web user interface: <i>alr webui</i>, which provides easy to access reports across your fleet.</p>
+                    <p>The code for alr can be found <a href="https://github.com/dab-solutions/alr" target=_blank>here</a>.<br/>
+                    The code for alr webui can be found <a href="https://github.com/dab-solutions/alr_webui" target=_blank>here</a>.</p>
                 </div>
-                <div class="12u$(small)">
-                    <h3>Application Security</h3>
-                    <p>
+            </div>
+            <div class="row">
+                <div class="4u 12u$(small)">
+                    <h4>Infrastructure as Code</h4>
+                    <p>IaC is a must paradigm for resilient cloud-native companies. Here is a list of modules to spin secure infrastructure via Terraform:
                         <ul>
-                            <li>
-                                gql_intruder is a plugin oriented tool to perform GraphQL endpoint vulnerability assessment. Developed while assisting our friends at the <a href="https://proca.foundation/" target=_blank>Proca Foundation</a> in <a href="https://github.com/fixthestatusquo/proca-backend/issues?q=is%3Aissue+author%3Adavinerd" target=_blank>strengthening the code</a> of their product. 
-                                <br />Click <a href="https://github.com/davinerd/gql_intruder" target=_blank> here </a> to check out the code.
-                            </li>
+                            <li><a href="https://github.com/dab-solutions/tf_hardened_eks" target=_blank>Hardened EKS cluster</a></li>
+                            <li><a href="https://github.com/davinerd/tf_hardened_gke" target=_blank>Hardened GKE cluster</a></li>
+                            <li><a href="https://github.com/davinerd/tf_gcp_org_policies" target=_blank>GCP Organizational Policies</a></li>
+                            <li><a href="https://github.com/davinerd/tf_cloudwatch_ddos_alerting" target=_blank>Cloudwatch DDoS Dashboard & Alerts</a></li>
                         </ul>
+                    You can find more by <a href="https://github.com/davinerd?tab=repositories&q=terraform&type=&language=&sort=" target=_blank>looking at the Github repository</a>.
                     </p>
                 </div>
             </div>
-
             <hr class="major" />
         </div>
-
     </section>
-
 </div>
